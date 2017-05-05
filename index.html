@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Electronic Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<div class="container">
+  <br></br>
+  <div class="col-xs-10 col-sm-8 table-condensed tabcal">
+    
+    <table class="table"id="t01">
+      <thead>
+      <tr>
+      <th id="name" colspan=4>
+        <h5 class="text-center name">Electronic Calculator</h5>
+      </th>
+       </tr>
+      </thead>
+      <tbody>
+      <tr class="dlarge">
+        <td id="displ" colspan = 4 ><h1 id="h1displ">0</h1></td>
+      </tr>
+       <tr class="dsmall">
+        <td id="disps" colspan = 4>0</td>
+      </tr>  
+      <tr>
+        <td><button type="button" class="btn btn-lg btn-danger"id="ac">AC</button></td>
+        <td><button type="button" class="btn btn-lg btn-danger" id="ce">CE</button></td>
+        <td><button type="button" class="btn btn-lg" id="divide">&divide</button></td>
+        <td><button class="btn btn-lg" id="multiply">x</button></td>
+      </tr>
+        <tr>
+        <td><button type="button" class="btn btn-lg" id="seven">7</button></td>
+        <td><button type="button" class="btn btn-lg" id="eight">8</button></td>
+        <td><button type="button" class="btn btn-lg" id="nine">9</button></td>
+        <td><button type="button" class="btn btn-lg" id="minus">-</button></td>
+      </tr>
+        <tr>
+        <td><button type="button" class="btn btn-lg" id="four">4</button></td>
+        <td><button type="button" class="btn btn-lg" id="five">5</button></td>
+        <td><button type="button" class="btn btn-lg" id="six">6</button></td>
+        <td><button type="button" class="btn btn-lg" id="plus">+</button></td>
+      </tr>
+        <tr>
+        <td><button type="button" class="btn btn-lg " id="one">1</button></td>
+        <td><button type="button" class="btn btn-lg" id="two">2</button></td>
+        <td><button type="button" class="btn btn-lg" id="three">3</button></td>
+        <td rowspan = 2 >
+          
+ 
+          <button type="button" class="btn btn-lg" id="equal">=</button>
+          
+        
+          </td>
+      </tr>
+        <tr>
+        <td colspan = 2><button type="button" class="btn btn-lg btn-block" id="zero">0</button></td>
+        <td><button type="button" class="btn btn-lg" id="dot">.</button></td>
+        
+      </tr>
+     </tbody>
+    </table>
+
+  </div>
+</div>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+body{
+  font-size: 100%;
+  font-family: "Orbitron", sans-serif;
+}
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 2px;
+    padding: 3px;
+    text-align: justify;
+}
+table{
+  border: 15px solid black; 
+}
+
+table#t01{
+  background-color: black;
+  color: silver;
+  width: 300px;
+}
+button{
+  text-align: center;
+  color: black;
+  width: 70px;
+}
+td#displ{
+  text-align: right;
+  font-size: 100%;
+  border-bottom: solid #cbccaf 1px;
+}
+td#disps{
+  text-align: right;
+  font-size: 150%; 
+}
+.name{
+  font-size: 200%;
+}
+.btn-group-vertical{
+  text-align: bottom;
+  width: 70px;
+}
+.dlarge, .dsmall{
+  color: #000000;
+  background-color: #cbccaf;  
+}
+button#equal{
+  height: 110px;
+}
